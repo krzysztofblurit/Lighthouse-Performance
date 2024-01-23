@@ -1,0 +1,36 @@
+﻿{
+  "Port": "9222",
+  "OutputFiles": "html,json,csv",
+  "Categories": "performance",
+  "OutputDirectory": "C:\\lighthouse-reports\\",
+  "DeviceConfs": [
+    {
+      "Name": "mobile",
+      "Width": 360,
+      "Height": 640,
+      "PixelRatio": 2
+    },
+    {
+      "Name": "hd1280",
+      "Width": 1280,
+      "Height": 800,
+      "PixelRatio": 1
+    },
+    {
+      "Name": "fullhd",
+      "Width": 1920,
+      "Height": 1080,
+      "PixelRatio": 1
+    }
+  ],
+  "HomePageUrls": [
+    {
+      "Url": "https://google.com/",
+      "Domain": "googlecom"
+    },
+    {
+      "Url": "https://google.pl/",
+      "Domain": "googlepl"
+    }
+  ]
+}
